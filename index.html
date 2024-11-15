@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- font -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1 id="datadisplay">Input javascript</h1>
@@ -17,13 +19,24 @@
 
     <br>
 
-    <input id="visa" type="radio">
+    <input id="visa" type="radio" name="radioExample">
     <label id="visaradiotitle" for="visa">Visa</label>
    
-    <input id="mastercardradion" type="radio">
-    <label id="masterRadiotitle" for="mastercardradion">Master Card</label>
+    <input id="mastercardradio" type="radio" name="radioExample">
+    <label id="masterRadiotitle" for="mastercardradio">Master Card</label>
 
-    <button id="buttonradiosubmit" type="submit">Submit</button>
+    <input id="paypalRadio" type="radio" name="radioExample">
+    <label id="paypalRadiotitle" for="paypalRadio">PayPal</label>
+
+    <button id="buttonSubmit" type="submit">Submit</button>
+
+    <p id="checkboxResult"></p>
+    <p id="radioResult"></p>
+
+    <input id="chainingMethodInput" type="text">
+    <label for="chainingMethodInput">Chaining Method Label</label>
+    <button id="chainingMethodButton">Chaining Method Submit Button</button>
+    <p id="chainingMethodResult"></p>
     
     <script type="text/javascript" src="script/script.js"></script>
 </body>
